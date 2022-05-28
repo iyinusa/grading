@@ -1,0 +1,83 @@
+﻿/* CSS Document - by www.kenafftech.com */
+
+body{margin:0px; padding:0px; font-family:calibri; font-size:small; color:#333;}
+
+/* MISC Styles */
+a{outline:none; color:#06C;}
+a:hover{color:#0CF; text-decoration:none;}
+table{width:100%; vertical-align:middle;}
+table td{padding:5px; border:1px solid #EEE;}
+table.reg_pat{width:100%; vertical-align:middle;}
+table.reg_pat td{padding:10px 5px; border:none; border-bottom:1px solid #EEE;}
+input[type="text"],input[type="password"],select,textarea{padding:5px; border:1px solid #CCC; background-color:#EEE;}
+input[type="text"]:focus,input[type="password"]:focus,select:focus,textarea:focus{background-color:#FFF;}
+
+/* General Styles */
+#eis_all{width:900px; margin:auto;}
+.msg{padding:10px; font-weight:bold; background-color:#FCF; color:#000; margin:5px 0px;}
+
+/* Header Styles */
+#eis_all #eis_header{min-height:80px; border-bottom:3px solid #0CF;}
+#eis_all #eis_header #eh_left{float:left; width:100px;}
+#eis_all #eis_header #eh_right{margin-left:100px;}
+#eis_all #eis_header #eh_right #ehr_top{min-height:50px;}
+#eis_all #eis_header #eh_right #ehr_btm{min-height:29px; border:1px solid #0CF; border-bottom:none; border-radius:5px 5px 0px 0px; z-index:100;}
+#eis_all #eis_header #eh_right #ehr_top #ehrt_left{float:left; width:700px; font-size:20px; padding-top:10px; font-weight:bold; color:#036;}
+#eis_all #eis_header #eh_right #ehr_top #ehrt_right{margin-left:700px; text-align:right;}
+
+/* Login View Styles */
+#eis_all #eis_logview{padding:10px; background-color:#0CF; color:#FFF; text-align:right;}
+#eis_all #eis_logview a{color:#FFF;}
+#eis_all #eis_logview a:hover{color:#CCC;}
+
+/* Menu Styles */
+#eis_all #eis_header #eh_right #ehr_btm ul{margin:0px; padding:0px; height:29px;}
+#eis_all #eis_header #eh_right #ehr_btm ul li{list-style-type:none; float:left; height:29px;}
+#eis_all #eis_header #eh_right #ehr_btm ul li a{display:block; padding:5px 30px 0px 30px; height:24px; text-decoration:none; outline:none; color:#000; font-weight:bold; border-right:1px solid #EEE; -webkit-transition: background 1s ease; -moz-transition: background 1s ease; -o-transition: background 1s ease; transition: background 1s ease;}
+#eis_all #eis_header #eh_right #ehr_btm ul li a:hover{background-color:#0CF; color:#FFF;}
+.ahome #eh_right #ehr_btm ul li .ahome, .aserv #eh_right #ehr_btm ul li .aserv, .ajob #eh_right #ehr_btm ul li .ajob, .asales #eh_right #ehr_btm ul li .asales, .aabout #eh_right #ehr_btm ul li .aabout, .acontact #eh_right #ehr_btm ul li .acontact, .arp #eh_right #ehr_btm ul li .arp, .amr #eh_right #ehr_btm ul li .amr, .aps #eh_right #ehr_btm ul li .aps, .asr #eh_right #ehr_btm ul li .asr, .aup #eh_right #ehr_btm ul li .aup{background-color:#0CF; color:#FFF;}
+
+/* Contents Styles */
+#eis_all #eis_contents{min-height:400px; padding-bottom:10px;}
+#eis_all #eis_contents #eis_banner{} 
+#eis_all #eis_contents #eis_banner #eb_left{float:left; width:800px;}
+#eis_all #eis_contents #eis_banner #eb_right{margin-left:800px; height:240px;}
+#eis_all #eis_contents #eis_banner #eb_right .ebr_f{padding:15px 5px; height:45px; border:1px solid #0CF; border-left:none; margin:4px 0px; text-align:center;}
+#eis_all #eis_contents #eis_banner #eb_right .ebr_f:hover{background-color:#EEE; text-shadow:1px 0px 1px #FFF;}
+#eis_all #eis_contents #eis_home{overflow:auto;}
+#eis_all #eis_contents #eis_home #eih_left{float:left; width:650px; padding-right:10px; border-right:1px solid #CCC;}
+#eis_all #eis_contents #eis_home #eih_right{margin-left:660px; padding-left:10px;}
+#eis_all #eis_contents #eis_home #eih_left .hserv_list{overflow:auto;}
+#eis_all #eis_contents #eis_home #eih_left .hserv_list ul{margin:0px; padding:0px;}
+#eis_all #eis_contents #eis_home #eih_left .hserv_list ul li{list-style-type:none; float:left; width:315px; margin:4px; min-height:450px; border:1px solid #DDD;}
+#eis_all #eis_contents #eis_home #eih_left .hserv_list ul li .li_head{font-size:large; padding:10px; background-color:#EEE; text-transform:uppercase; text-shadow:1px 0px 1px #FFF; color:#006; font-weight:bold;}
+#eis_all #eis_contents #eis_home #eih_left .hserv_list ul li .li_cont{padding:10px;}
+
+/* Footer Styles */
+#eis_all #eis_footer{border-top:1px solid #CCC; color:#666;}
+#eis_all #eis_footer #ft_rz{padding:10px;}
+
+/* Reports Style */
+.rpt_box{width:800px; margin:auto;}
+.rpt_box .rpt_head{border-bottom:1px solid #DDD; padding:10px; margin-bottom:10px; overflow:auto;}
+.rpt_box .rpt_head img{float:left; margin-right:10px;}
+.rpt_box .rpt_head .hd{font-size:x-large; color:#0CF;}
+.rpt_box .status{}
+.rpt_box .status .tbh{font-size:large; background-color:#EEE;}
+
+/* Load Courses Styles */
+.each_c{border:1px solid #999; padding:10px; margin:10px; border-radius:5px;}
+.each_c .ec_level{font-size:26px; color:#0CF; font-weight:bold; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.each_c .ec_level:after{content:' Courses';}
+.each_c .ec_level b{color:#069;}
+
+/* Results Styles */
+.r_list{margin:10px; padding:10px; border-radius:5px; border:1px solid #ddd; cursor:pointer;}
+.r_list:hover{border:1px solid #666;}
+.r_list a{outline:none; border:none; color:#333; font-size:large; display:block; text-decoration:none;}
+.r_list a:hover{color:#999;}
+
+/* Chart Styles */
+.chart_lay{overflow:auto;}
+.chart_lay .chart_lay_title{color:#930; padding-bottom:5px; margin-bottom:10px; border-bottom:3px solid #0CF;}
+.chart_lay .chart_lay_each{float:left; width:45%; border:1px solid #999; padding:10px; margin:5px; border-radius:5px; text-align:center;}
